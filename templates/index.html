@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock Price alert</title>
+  </head>
+  <body>
+    <form action="#" method="POST">
+      <label for="Symbol">Stock Symbol:</label>
+      <input type="text" id="Symbol" name="Symbol"><br>
+      <label for="Price">Price Threshold:</label>
+      <input type="text" id="Price" name="Price"><br>
+      
+      <label for="smsText">Phone Number(if alert in sms):</label>
+      <input type="text" id="smsText" name="smsText"><br>
+      <label for="emailText">Email:</label>
+      <input type="text" id="emailText" name="emailText"><br>
+      <label for="dropdown1">Select time:</label>
+      <select id="dropdown1" name="time">
+        <option value="_15">15Min</option>
+        <option value="_20">20Min</option>
+        <option value="_1">1hr</option>
+      </select><br>
+      <label for="dropdown2">Select Notification Menu:</label>
+      <select id="dropdown2" name="alert">
+        <option value="sms">SMS</option>
+        <option value="email">Email</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+    {{final_price}}
+  </body>
+</html>
