@@ -1,0 +1,8 @@
+flask
+yfinance
+flask_sqlalchemy
+time
+smtplib
+schedule
+atexit
+twilio
